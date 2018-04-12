@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/about', function () {
+    return '<h1>Hallo</h1>'
+    .'Selamat Datang di Webapp Saya<br>'
+    .'laravel, emang keren';
+});
